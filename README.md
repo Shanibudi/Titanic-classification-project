@@ -15,7 +15,7 @@ https://www.kaggle.com/competitions/titanic/data
 | `requirements.txt` | Python dependencies. |
 | `README.md` | Setup and run instructions. |
 
-No dataset files are committed. The dataset is fetched directly from Kaggle by the code.
+The dataset is fetched directly from Kaggle by the code.
 
 ## Setup
 
