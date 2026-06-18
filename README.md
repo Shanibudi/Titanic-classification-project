@@ -50,7 +50,7 @@ Before running the project, open Kaggle settings:
 
 https://www.kaggle.com/settings/api
 
-Create a Legacy API Key once and place the downloaded `kaggle.json` file in the Kaggle configuration directory.
+Create a Legacy API Key once and place the downloaded `kaggle.json` file in project directory.
 
 Linux or macOS:
 
