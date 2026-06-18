@@ -10,7 +10,7 @@ https://www.kaggle.com/competitions/titanic/data
 | File | Purpose |
 | --- | --- |
 | `train.py` | Downloads the Kaggle Titanic data, preprocesses it, trains a PyTorch model, applies early stopping, and saves `model.pt`. |
-| `ds_app.py` | Streamlit app for loading a Titanic-format CSV, loading the saved model, and running inference. If the uploaded CSV contains the `Survived` column, the app also reports Accuracy and ROC AUC. For Kaggle `test.csv`, which does not contain labels, the app only shows predictions and survival probabilities. |
+| `ds_app.py` | Streamlit app for loading a Titanic-format CSV, loading the saved model, and running inference. If the uploaded CSV contains the `Survived` column, the app also reports accuracy and ROC AUC. For Kaggle `test.csv`, which does not contain labels, the app only shows predictions and survival probabilities. |
 | `eda.ipynb` | Jupyter notebook for exploratory data analysis. |
 | `requirements.txt` | Python dependencies. |
 | `README.md` | Setup and run instructions. |
