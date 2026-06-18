@@ -150,15 +150,14 @@ Sex, Embarked, Title
 
 Preprocessing choices:
 
-1. Missing numeric values are imputed using the median because it is robust to outliers.
-2. Numeric features are standardized using StandardScaler.
-3. Missing categorical values are imputed using the most frequent category.
-4. Categorical features are converted to numeric features using one hot encoding.
-5. handle_unknown="ignore" is used for robust inference on unseen categories.
-6. The Cabin column is not used directly due to many missing values; instead, a CabinKnown indicator is created.
+1. Numeric features are filled with the median.
+2. Missing categorical values are imputed using the most frequent category.
+3. Categorical features are converted to numeric features using one hot encoding.
+4. The app can handle unseen categories during inference.
+5. The Cabin column is not used directly due to many missing values. Instead, a CabinKnown indicator is created.
 
 ## Validation and model selection
-The original Kaggle test.csv does not include the Survived labels, so it cannot be used for local supervised evaluation. Therefore, `train.py` creates a held-out validation set from Kaggle `train.csv` using an 80% and 20% stratified split.
+`train.py` creates a held-out validation set from Kaggle `train.csv` using an 80% and 20% stratified split.
 
 The validation set is used to evaluate how well the model generalizes to unseen data, monitor overfitting, select the best training epoch using early stopping based on validation loss, and compare training hyperparameters. The saved checkpoint corresponds to the model with the best validation loss.
 
