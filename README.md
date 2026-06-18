@@ -46,9 +46,9 @@ python -m pip install -r requirements.txt
 
 The code downloads the Titanic competition data directly from Kaggle using `kagglehub`.
 
-Before running the project, open the Titanic competition page:
+Before running the project, open Kaggle settings:
 
-[https://www.kaggle.com/competitions/titanic/data](https://www.kaggle.com/settings/api)
+https://www.kaggle.com/settings/api
 
 Create a Legacy API Key once and place the downloaded `kaggle.json` file in the Kaggle configuration directory.
 
