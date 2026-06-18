@@ -2,7 +2,7 @@
 Streamlit inference and evaluation app for the Titanic PyTorch model.
 
 Run with:
-python3 -m streamlit run ds_app.py
+python -m streamlit run ds_app.py
 """
 
 from __future__ import annotations
