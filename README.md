@@ -114,7 +114,7 @@ In the app:
 2. Enter the CSV path, for example `data/test.csv`.
 3. Click `Run inference`.
 
-```markdown
+```Markdown
 ![Example usage](https://raw.githubusercontent.com/Shanibudi/Titanic-classification-project/main/results/example_usage.png)
 ```
 
