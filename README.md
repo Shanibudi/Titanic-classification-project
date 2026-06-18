@@ -48,7 +48,7 @@ The code downloads the Titanic competition data directly from Kaggle using `kagg
 
 Before running the project, open the Titanic competition page:
 
-https://www.kaggle.com/competitions/titanic/data
+[https://www.kaggle.com/competitions/titanic/data](https://www.kaggle.com/settings/api)
 
 Create a Legacy API Key once and place the downloaded `kaggle.json` file in the Kaggle configuration directory.
 
