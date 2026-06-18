@@ -159,11 +159,7 @@ Preprocessing choices:
 
 The validation set is used to evaluate how well the model generalizes to unseen data, monitor overfitting, select the best training epoch using early stopping based on validation loss, and compare training hyperparameters. The saved checkpoint corresponds to the model with the best validation loss.
 
-Two evaluation metrics are reported:
-```text
-Accuracy
-ROC AUC
-```
+During training, two evaluation metrics are reported: Accuracy and ROC AUC.
 Accuracy measures the percentage of correct survival predictions. ROC AUC measures how well the model ranks survival probabilities across the two classes.
 
 ## Notes
