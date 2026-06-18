@@ -115,7 +115,7 @@ In the app:
 3. Click `Run inference`.
 
 ```markdown
-![Example usage](results/example_usage.png)
+![Example usage](https://raw.githubusercontent.com/Shanibudi/Titanic-classification-project/main/results/example_usage.png)
 ```
 
 If the CSV does not contain `Survived`, the app shows predictions and probability plots only.
