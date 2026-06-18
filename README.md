@@ -114,7 +114,7 @@ In the app:
 2. Enter the CSV path, for example `data/test.csv`.
 3. Click `Run inference`.
 
-<img src="results/example_usage.png" alt="Example usage" width="700">
+<img src="results/example_usage.png" alt="Example usage" width="1100">
 
 If the CSV does not contain `Survived`, the app shows predictions and probability plots only.
 
@@ -179,6 +179,4 @@ The trained checkpoint `model.pt` is included in the repository to allow quick t
 
 ## Results
 
-```markdown
-![Example usage](results/predictions_plot_results.png)
-```
+<img src="results/predictions_plot_results.png" alt="Example usage" width="700">
